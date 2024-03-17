@@ -1,7 +1,6 @@
 describe('Sign Up', () => {
   it('Adds person to course', () => {
     cy.visit('/')
-
     // type user name into input
     cy.get('input[name="name"]').click().type('Some Name')
     // type user email
